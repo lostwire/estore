@@ -5,8 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name='estore',
-    version='0.0.1',
+    version='0.0.2',
     description='Meta package for estore packages',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url='https://github.com/lostwire/estore',
     author='Jnxy',
     author_email='jnxy@lostwire.net',
